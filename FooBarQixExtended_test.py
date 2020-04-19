@@ -1,3 +1,4 @@
+from FooBarQixExtendedCode import FooBar
 
 def FooBarCheck(X, ReturnedXVal):
     ReturnXVal = FooBar(X)
