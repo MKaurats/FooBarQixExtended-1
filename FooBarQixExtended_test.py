@@ -24,3 +24,4 @@ def test_X99():
 
 def test_X100():
     FooBarCheck(100, "Bar")
+ 
