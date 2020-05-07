@@ -1,8 +1,0 @@
-import pytest
-
-def FooBarCheck(X, ReturnedXVal):
-    ReturnXVal = FooBar(X)
-    assert ReturnXVal == ReturnedXVal
-    
-def test_X1():
-    FooBarCheck(1, "1")
