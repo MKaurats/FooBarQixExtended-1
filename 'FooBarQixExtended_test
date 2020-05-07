@@ -1,3 +1,6 @@
+#To install pytest ceverage run in terminal: pip install pytest-cov 
+#To get a pytest coverage report run in terminal: pytest --cov=FooBarQixExtended_test
+
 import pytest
 
 from FooBarQixExtended_code import FooBar
