@@ -1,8 +1,43 @@
 import pytest
 
+from FooBarQixExtended_code import FooBar
+
 def FooBarCheck(X, ReturnedXVal):
     ReturnXVal = FooBar(X)
     assert ReturnXVal == ReturnedXVal
     
+def test_X0():
+    FooBarCheck(0, "Foo" and "Bar")
+
 def test_X1():
     FooBarCheck(1, "1")
+
+def test_X3():
+    FooBarCheck(3, "Foo")
+
+def test_X5():
+    FooBarCheck(5, "Bar")
+
+def test_X7():
+    FooBarCheck(7, "7")
+
+def test_X15():
+    FooBarCheck(15, "Foo" and "Bar")
+
+def test_X98():
+    FooBarCheck(98, "98")
+
+def test_X99():
+    FooBarCheck(99, "Foo")
+
+def test_X100():
+    FooBarCheck(100, "Bar")
+
+def test_X9999999():
+    FooBarCheck(9999999, "Foo")
+
+def test_X9000095():
+    FooBarCheck(10000000, "Bar")
+
+def test_X9000000():
+    FooBarCheck(9000000, "Foo" and "Bar")
