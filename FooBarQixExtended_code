@@ -1,2 +1,12 @@
+A = "Foo"
+B = "Bar"
+
 def FooBar( X ):
+    if (X % 3) == 0 and (X % 5) == 0:
+        return (A and B)
+    elif (X % 3) == 0:
+        return A
+    elif (X % 5) == 0:
+        return B
+    else:
         return str(X)
